@@ -1,0 +1,69 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+
+}.iphone-14-15-pro-1-2eb {
+  box-sizing: border-box;
+  padding: 19.8rem 1.2rem 37.7rem 0.8rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #0f6fa6;
+  background: linear-gradient(219.94deg, rgba(58, 254, 113, 0.200000003) 53.48%, rgba(37, 182, 77, 0.200000003) 77.22%);
+  cursor: pointer; /* Set cursor to pointer type */
+  user-select: none; /* Prevent text selection */
+}
+.iphone-14-15-pro-1-2eb .you-dont-love-me-mVh {
+  margin-bottom: 6.1rem;
+  font-size: 4rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.iphone-14-15-pro-1-2eb .yes-E8P {
+  margin: 0rem 2.5rem 6.9rem 0rem;
+  font-size: 4rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.iphone-14-15-pro-1-2eb .no-uVR {
+  margin-right: 2.3rem;
+  font-size: 4rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.no-uVR {
+  transition: transform 0.5s; /* Add transition effect */
+}
+.no-uVR::selection {
+  background-color: transparent; /* Make text unselectable */
+}
+.no-uVR::-moz-selection {
+  background-color: transparent; /* Make text unselectable for Firefox */
+}

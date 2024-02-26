@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <title>❤️</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter%3A400"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400"/>
+  <link rel="stylesheet" href="./styles/iphone-14-15-pro-1.css"/>
+</head>
+<body>
+<div class="iphone-14-15-pro-1-2eb">
+  <p class="you-dont-love-me-mVh">मेरो माया लाग्दैन?</p>
+  <p class="yes-E8P"  id="yesBtn">लाग्छ</p>
+  <p class="no-uVR" id="noBtn">लाग्दैन</p>
+</div>
+<script>
+  const yesButton = document.getElementById('yesBtn');
+
+  yesButton.addEventListener('click', function() {
+    // Calculate the position to center the popup window
+    const screenWidth = window.screen.width;
+    const screenHeight = window.screen.height;
+    const popupWidth = 600;
+    const popupHeight = 400;
+    const left = (screenWidth - popupWidth) / 2;
+    const top = (screenHeight - popupHeight) / 2;
+
+    // Open a new popup window
+    const popupWindow = window.open('about:blank', 'popupWindow', `width=${popupWidth},height=${popupHeight},top=${top},left=${left}`);
+    
+    // Customize the title of the popup window
+    popupWindow.document.title = '❤️';
+
+  // Insert the HTML code for the downloaded GIF into the popup window
+  popupWindow.document.body.innerHTML = `
+    <img src="joy.gif" alt="Joy GIF">
+  `;
+});
+  const noButton = document.getElementById('noBtn');
+
+  noButton.addEventListener('mousemove', function(e) {
+    const newX = e.clientX - noButton.offsetWidth / 2;
+    const newY = e.clientY - noButton.offsetHeight / 2;
+    noButton.style.transform = `translate(${newX}px, ${newY}px)`;
+  });
+</script>
+</body>
+</html>
